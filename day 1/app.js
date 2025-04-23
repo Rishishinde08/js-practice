@@ -53,3 +53,25 @@ if(0){
 }else{
     console.log("this is a false value");
 }
+
+// switch statement 
+
+let expresion = 10;
+switch (10) {
+    case 11 :
+        console.log("this is a 11");
+        break;
+case 10 :
+    console.log("this is a  10 switch opration  ");
+    break;
+
+    default:
+        console.log("please change inpute");
+        break;
+}
+
+//for loop 
+
+for(let i = 0; i<=10; i++){
+    console.log(`i = ${i}`);
+}
