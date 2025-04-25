@@ -126,3 +126,21 @@ arrays == arrays1;
 
 let nested = [ [1,2,30], [,2,3,5,5] ];
 console.log(nested);
+
+
+
+// loops in arrays 
+
+
+// even number 
+
+for ( let i=0; i<=10; i=i+2){
+    console.log(i);
+}
+
+
+// odd number 
+
+// for(let b=0; b<=10; b=b-2){
+//     console.log(b);
+// }
