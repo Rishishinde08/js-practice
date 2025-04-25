@@ -97,4 +97,32 @@ console.log(str.includes("Java")); // true
 console.log(str.slice(2, 7)); // "Hello"
 console.log(str.split(" ")); // ["", "", "Hello", "JavaScript!", "", ""]
 
+// const referance and nested arrays 
 
+
+const arrays = [1,2,3,4,5];
+const arrays1 = [1,2,3,4,5];
+
+arrays.push(10);
+console.log(arrays);
+
+let arrayss = arrays;
+console.log(arrayss);
+
+
+// this is not possible in constant arrays 
+// arrays = [1,2,3,4,5];
+// console.log(arrays);
+
+
+
+// false 
+// referance tabi ata hai jab memory me ek hi location pe arrays store ho 
+
+arrays == arrays1;
+
+
+// nested arrays 
+
+let nested = [ [1,2,30], [,2,3,5,5] ];
+console.log(nested);
