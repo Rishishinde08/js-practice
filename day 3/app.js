@@ -96,18 +96,76 @@ console.log("object litral add new value and delete the value");
 
 let batch = {
 
-    name : "rishi",
-    div : "A",
-    rollNumber : 18,
+    name: "rishi",
+    div: "A",
+    rollNumber: 18,
 
 };
 
-let newValue = ( batch.name = "karan" );
-let newValue1 = ( batch.marks = [150,160,170] );
+let newValue = (batch.name = "karan");
+let newValue1 = (batch.marks = [150, 160, 170]);
 console.log(newValue); // new value add
 console.log(batch);  // new array add
-console.log(newValue1); 
+console.log(newValue1);
 
 let delet = delete batch.div; // delete the value
 
 console.log(delet);
+
+
+
+console.log("Nested object of JS ");
+
+const classInfo = {
+
+    aman: {
+        name: "aman",
+        rollNumber: 18
+    },
+
+    rishi: {
+        name: "rishi",
+        rollNumber: 19
+    },
+
+    tushar: {
+        name: "tushar",
+        rollNumber: 28
+    }
+};
+
+console.log(classInfo);
+
+let data = classInfo.aman;
+console.log(data);
+
+
+// value change 
+
+classInfo.aman.name = "Aman";
+
+
+
+// array of object 
+
+let home = [
+
+    {
+        name: "Altaf",
+        rent: 1000
+
+    },
+
+    {
+        name: "prem",
+        rent: 5000
+
+    }
+
+];
+
+
+let personName = home[0].name ;
+let person = home[0] ;
+console.log(`  --- > personName ${personName}`);
+console.log(person);
