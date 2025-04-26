@@ -1,63 +1,65 @@
 
 
 
-console.log("pattern printing in js  ");
+// console.log("pattern printing in js  ");
 
-for (let i = 0; i <= 5; i++) {
+// for (let i = 0; i <= 5; i++) {
 
-    let row = "";
-    for (let j = 0; j <= i; j++) {
-        row += "* "
-    }
+//     let row = "";
+//     for (let j = 0; j <= i; j++) {
+//         row += "* "
+//     }
 
-    console.log(row);
-}
+//     console.log(row);
+// }
 
-console.log("Pattern printing in JS:");
+// console.log("Pattern printing in JS:");
 
-for (let i = 5; i >= 0; i--) {
-    let row = "   ";
-    for (let j = 0; j <= i; j++) {
-        row += " *";
-    }
-    console.log(row);
-}
-
-
-console.log("square pattern in JS");
-
-for (let i=0; i<4; i++){
-
-    let row = "";
-    for(let j=0; j< 5; j++){
-        row += " *";
-    }
+// for (let i = 5; i >= 0; i--) {
+//     let row = "   ";
+//     for (let j = 0; j <= i; j++) {
+//         row += " *";
+//     }
+//     console.log(row);
+// }
 
 
-    console.log(row);
-}
+// console.log("square pattern in JS");
+
+// for (let i=0; i<4; i++){
+
+//     let row = "";
+//     for(let j=0; j< 5; j++){
+//         row += " *";
+//     }
+
+
+//     console.log(row);
+// }
 
 
 
 
-console.log("side trangle in js ");
+// console.log("side trangle in js ");
 
 
-for(let i=0; i<=5; i++){
+// for(let i=0; i<=5; i++){
 
 
-    for(let k=0; k<=5; k++){
+//     for(let k=0; k<=5; k++){
 
-       console.log(" ");
-    }
+//        console.log(" ");
+//     }
 
-    let row = "";
+//     let row = "";
 
-for(let j=0; j<=i; j++){
+// for(let j=0; j<=i; j++){
 
-    row += " *";
-}
+//     row += " *";
+// }
 
-    console.log(row);
-}
+//     console.log(row);
+// }
+
+
 
