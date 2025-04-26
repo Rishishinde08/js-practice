@@ -62,4 +62,29 @@
 // }
 
 
+// objects 
 
+console.log("object Litral");
+
+let student = {
+   name: "rishi",
+  rollNumber: 28,
+  age : 21
+};
+
+const post ={
+
+    like : 20,
+    Comment : "very nice bro",
+    tags : ["@rishi" , "@rishikes"]
+
+}
+
+let result = post.like;
+
+// console.name(student.name);
+console.log(result);
+
+console.log(post["like"]);
+
+student["name"];
