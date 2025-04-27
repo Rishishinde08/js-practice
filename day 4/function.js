@@ -61,8 +61,20 @@ table(5);
 averageNumber(2,5,3);
 
 
+add = (a,b) => {
+    return a+b;
+}
 
 
+let result = add(10,5);
+console.log(result);
+
+
+sub = (a,b) => a-b;
+
+let resul = sub(10,10);
+
+console.log(resul);
 
 nameStudent("Rishi", 20);
 nameStudent("karan", 255);
