@@ -1,33 +1,33 @@
 
 
 // let btn = document.querySelector("button");
-// let btnss =  document.querySelectorAll("button");
+let btnss =  document.querySelectorAll("button");
 
-// console.dir(btnss);
+console.dir(btnss);
 
 
-// for(btns of btnss){
+for(btns of btnss){
     
-//     // btns.onclick = saySomthing;
-//     // btns.onclick = sayNothing;
+    btns.onclick = saySomthing;
+    btns.onclick = sayNothing;
 
 
-//     // btns.addEventListener("click", sayNothing);
-//     // btns.addEventListener("click", saySomthing);
+    btns.addEventListener("click", sayNothing);
+    btns.addEventListener("click", saySomthing);
 
 
 
-// }
+}
 
 
-// function sayNothing (){
-//     console.log("clicked by rishi");
-// }
+function sayNothing (){
+    console.log("clicked by rishi");
+}
 
 
-// function saySomthing (){
-//     console.log("button was clicked!!!");
-// };
+function saySomthing (){
+    console.log("button was clicked!!!");
+};
 
 
 
