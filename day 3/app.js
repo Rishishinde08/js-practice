@@ -35,7 +35,7 @@ for (let i=0; i<4; i++){
 
 
     console.log(row);
-// }
+}
 
 
 
@@ -167,10 +167,5 @@ let home = [
 
 let personName = home[0].name ;
 let person = home[0] ;
-console.log(`  --- > personName ${personName}`);
+console.log(` --- > personName ${personName}`);
 console.log(person);
-
-
-
-
-
